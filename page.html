@@ -16,11 +16,10 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <main class="bg-dark-subtle">
-      <section class="self-intro">
-        <h1>ABOUT</h1>
-        <h2>Hi there, I'm Jenny Zhang!</h2>
-        <p>
-          I'm a junior software developer as of January 2024, using Javascript
+      <section class="p-2 m-3 card text bg-light border border-top" style="max-width: 47%;">
+        <h1 class="card-header">ABOUT</h1>
+        <p class="card-content">
+            Hi there, I'm Jenny Zhang. A junior software developer as of January 2024, using Javascript
           and SQL database to create full-stack applications/web. Excited to
           embark on an exciting journey into tech, contribute my knowledge and
           skills into the industury, aspired to join the game sector
@@ -32,9 +31,14 @@
           on here!
         </p>
     </section>
-        <section>
-          <h2>SKILL PROFICENCY</h2>
-          <button class="profic-btns">Basic</button>
+        <section class="card text bg-light p-2 m-3" style="max-width: 47%;">
+          <h1 class="card-header mb-2">SKILL PROFICENCY</h1>
+          <div class="btn-group" role="group">
+            <button type="radio"class="btn btn-outline-success">Basic</button>
+            <button type="radio" class="btn btn-outline-warning">Intermediate</button>
+            <button type="radio" class="btn btn-outline-danger">Advanced</button>
+          </div>
+         
           <div>
             <p>Typescript</p>
             <p>Node.js</p>
@@ -42,7 +46,7 @@
             <p>Firebase</p>
           </div>
 
-          <button class="profic-btns">Intermediate</button>
+         
           <div>
             <p>Javascript</p>
             <p>CSS</p>
@@ -51,7 +55,7 @@
             <p>TDD/ Test Driven Development</p>
           </div>
 
-          <button class="profic-btns">Advanced</button>
+          
           <div>
             <p>Give it some time, it's brewing!</p>
           </div>
