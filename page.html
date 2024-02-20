@@ -23,9 +23,11 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <main class="bg-primary-subtle">
-      <section class="p-2 m-3 card text bg-light border border-top" style="max-width: 47%;">
+        <div class="container d-flex ">
+            <div class="row"></div>
+  <section id="intro" class="p-2 m-3 card text bg-light border border-top col" style="max-width: 47%;">
         <h1 class="card-header bs-warning-text-emphasis">ABOUT</h1>
-        <p class="card-content">
+        <p class="card-content d-inline-block">
             Hi there, I'm Jenny Zhang. A junior software developer as of January 2024, using Javascript
           and SQL database to create full-stack applications/web. Excited to
           embark on an exciting journey into tech, contribute my knowledge and
@@ -33,12 +35,12 @@
           specifically. And to learn new languages to further enrich my personal
           development.
         </p>
-        <p>
+        <p class="card-content d-inline-block">
           Oh, I also make small projects here and there, you can check them out
           on here!
         </p>
     </section>
-        <section class="card text bg-light p-2 m-3" style="max-width: 47%;">
+        <section id="skills-profile" class="card text bg-light p-2 m-3 col" style="max-width: 47%;">
           <h1 class="card-header mb-2">SKILL PROFICENCY</h1>
           <div class="btn-group" role="group">
             <button type="radio"class="btn btn-outline-success" id="basic-btn">Basic</button>
@@ -67,6 +69,8 @@
             <p>Give it some time, it's brewing!</p>
           </div>
         </section>
+        </div>
+    
       
       <section class="contact-box">
         <h2>WANT TO CONNECT? <i class="fa fa-hand-o-down"></i></h2>
@@ -85,6 +89,7 @@
           <button>Send</button>
         </form> -->
       </section>
+
       <section class="projects">
         <h2>PROJECTS</h2>
         <article class="individual-project">
@@ -102,11 +107,11 @@
             understanding of DOM with this simple and quick mini game, styled
             with <span class="emphasis">CSS</span>.
           </p>
-          <a class="btn btn-dark btn-lg d-inline-block" role="button"
+          <a class="btn btn-warning btn-lg d-inline-block" role="button"
             href="https://github.com/berri-puff/dom-matching-game"
             target="_blank"
             ><i class="fa fa-github"></i>Source code</a> 
-            <a class="btn btn-light btn-lg d-inline-block" role="button" aria-disabled="true"><i class="fa fa-paper-plane"></i>Hosted Version</a>
+            <a class="btn btn-info btn-lg d-inline-block" role="button" aria-disabled="true"><i class="fa fa-paper-plane"></i>Hosted Version</a>
         </div>
 
     </div>
@@ -168,10 +173,10 @@
                     available to use, allowing freedome and creativity during this
                     process.
                   </p>
-                  <a class="btn btn-lg btn-dark" role="button" href="https://github.com/berri-puff/MMITM"
+                  <a class="btn btn-lg btn-warning" role="button" href="https://github.com/berri-puff/MMITM"
                   ><i class="fa fa-github"></i>Source code</a
                 >
-                <a class="btn btn-lg btn-light" role="button" href="https://meet-me-in-the-middle-22a40.web.app/"
+                <a class="btn btn-lg btn-info" role="button" href="https://meet-me-in-the-middle-22a40.web.app/"
                   ><i class="fa fa-paper-plane"></i>Hosted Version</a
                 >
             </div>
@@ -261,10 +266,10 @@
                             application is hosted through
                             <span class="emphasis">Netlify App</span>!
                           </p>
-                          <a role="button" class="btn btn-lg btn-dark" href="https://github.com/berri-puff/fe-nc-news" target="_blank"
+                          <a role="button" class="btn btn-lg btn-warning" href="https://github.com/berri-puff/fe-nc-news" target="_blank"
                           ><i class="fa fa-github"></i>Source Code</a
                         >
-                        <a role="button" class="btn btn-lg btn-light" href="https://nc-hot-issue.netlify.app/" target="_blank"
+                        <a role="button" class="btn btn-lg btn-info" href="https://nc-hot-issue.netlify.app/" target="_blank"
                           ><i class="fa fa-paper-plane"></i>Hosted Version</a
                         >
                     </div>
@@ -333,8 +338,8 @@ style="width:400px; height: 250px"
                 <div class="row">
                     <div class="col m-2 me-5 p-2">
                         <p class="card-content">Backend Project using <span class="emphasis">PostgresSQL</span> to access and store databases, tested vigorously through happy and sad paths of each <span class="emphasis">CRUD</span> method to respond appriopriately with <span class="emphasis">Jest</span> as a form of unit testing. To handle server side requests, <span class="emphasis">Express.js</span> was used when building the routes for each request. <span class="emphasis">MVC (Model-view-controller)</span> was used as a method to keep code concise and tidy. Final version hosted by Render and the data is held by ElephantSQL</p>
-                        <a role="button" class="btn btn-lg btn-dark" href="https://github.com/berri-puff/news-by-jen" target="_blank"><i class="fa fa-github"></i>Source Code</a>
-                        <a role="button" class="btn btn-lg btn-light" href="https://hot-issue.onrender.com/api" target="_blank"><i class="fa fa-paper-plane"></i>Hosted Version</a>
+                        <a role="button" class="btn btn-lg btn-warning" href="https://github.com/berri-puff/news-by-jen" target="_blank"><i class="fa fa-github"></i>Source Code</a>
+                        <a role="button" class="btn btn-lg btn-info" href="https://hot-issue.onrender.com/api" target="_blank"><i class="fa fa-paper-plane"></i>Hosted Version</a>
                     </div>
                 </div>
                 <div class="col">
@@ -388,10 +393,12 @@ style="width:400px; height: 250px"
     </article>
  
       </section>
+
       <section>
         <h2>Upcoming Projects <i class="fa fa-wrench"></i></h2>
         <p>Bartender Game - you, as a bartender, have to mix drinks for customers! As simple as that!</p>
       </section>
+
     </main>
     <footer>
       <h4>Created from VanillaJS and DOM, styled with Bootstrap and Font Awesome Icons</h4>

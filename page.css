@@ -23,5 +23,13 @@
     display: flex;
     justify-content: flex-end;
 }
+ 
+#skills-profile {
+    display: block;
 
+}
+
+#intro {
+    display: block;
+}
 
