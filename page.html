@@ -78,11 +78,15 @@
           <button>Send</button>
         </form> -->
       </section>
-      <section class="projects">
+     
         <h2>PROJECTS</h2>
-        <div class="card d-flex-row">
+         <section class="projects">
+        <div class="card p-2 m-3 ">
  <h3 class="card-header">Animal Crossing DOM Matching Game</h3>
-          <p>
+ <div class="container d-flex">
+    <div class="row">
+        <div class="col m-2 me-5 p-2">
+             <p class="card-content">
             As a part of the Northcoder's Software Development bootcamp, one of
             the lessons were to ultilise the
             <span class="emphasis">DOM</span> to manipulate
@@ -91,34 +95,55 @@
             understanding of DOM with this simple and quick mini game, styled
             with <span class="emphasis">CSS</span>.
           </p>
-
-          <img
-            src="project-imgs/ACNH-code.png"
-            alt="a snipshot of javascript code function from VScode"
-            width="450px"
-            height="300px"
-          />
-          <img
-            src="project-imgs/ACNH-css.png"
-            alt="a snipshot of HTML CSS from VScode for styling"
-            width="450px"
-            height="300px"
-          />
-          <img
-            src="project-imgs/ACNH-web.png"
-            alt="a snipshot of the webpage, with colourful leaves in the background,a 3 by 4 grid at the center of the page, front of each card is an Animal Crossing Leaf sign and the back contains a random character to be matched as a pair "
-            width="450px"
-            height="300px"
-          />
-          <a
+          <a class="btn btn-dark btn-lg d-inline-block" role="button"
             href="https://github.com/berri-puff/dom-matching-game"
             target="_blank"
-            ><i class="fa fa-github"></i>Source code</a
-          >
+            ><i class="fa fa-github"></i>Source code</a> 
+            <a class="btn btn-light btn-lg d-inline-block" role="button" aria-disabled="true"><i class="fa fa-paper-plane"></i>Hosted Version</a>
+        </div>
+
+    </div>
+    <div class="col">
+        <div class="carousel slide" data-bs-ride="carousel" id="ACNH-carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+        src="project-imgs/ACNH-code.png"
+        alt="a snipshot of javascript code function from VScode"
+       style="width:400px; height: 250px"
+      />  
+                </div>
+                <div class="carousel-item">
+                    <img
+                    src="project-imgs/ACNH-css.png"
+                    alt="a snipshot of HTML CSS from VScode for styling"
+                    style="width:400px; height: 250px"
+                  />
+                </div>
+                <div class="carousel-item">
+                    <img
+                    src="project-imgs/ACNH-web.png"
+                    alt="a snipshot of the webpage, with colourful leaves in the background,a 3 by 4 grid at the center of the page, front of each card is an Animal Crossing Leaf sign and the back contains a random character to be matched as a pair "
+                    style="width:400px; height: 250px"
+                  />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#ACNH-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#ACNH-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        
+    </div>
+ </div>        
         </div>
          
 
-          <h3>2024 Meet Me in the Middle/MMITM</h3>
+          <!-- <h3>2024 Meet Me in the Middle/MMITM</h3>
           <p>
             A full stack application made using:
             <span class="emphasis">Firebase</span> forbackend database storage,
@@ -291,7 +316,7 @@ src="project-imgs/news-render-topics.png"
 alt="a screenshot object.json formatted infomration from the request for topics"
 width="450px"
 height="300px"
-/>
+/> -->
  
       </section>
       <section>
