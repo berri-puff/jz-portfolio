@@ -10,11 +10,7 @@
     font-size: 21px;
     font-weight: bold;
 }
-.projects {
+.individual-project {
     display: flex;
     justify-content: flex-end;
-}
-
-.col-5 {
-    border: 1px solid black;
 }
