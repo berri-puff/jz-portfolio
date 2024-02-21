@@ -24,18 +24,13 @@
     justify-content: flex-end;
 }
  
-/* 
-.selfie {
-    object-fit:contain;
-    height:250px;
-    border-radius: 30px !important;
-} */
+
 
 .profile-pic {
     object-fit: fill;
     height:200px;
     width: 180px;
-    border: 6px lightseagreen;
+    border: 6px rgb(59, 200, 224);
     border-style: double ;
     border-radius: 15px 50px
  
@@ -46,4 +41,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    background: url(https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 }
