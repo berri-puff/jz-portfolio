@@ -24,12 +24,26 @@
     justify-content: flex-end;
 }
  
-#skills-profile {
-    display: block;
+/* 
+.selfie {
+    object-fit:contain;
+    height:250px;
+    border-radius: 30px !important;
+} */
 
+.profile-pic {
+    object-fit: fill;
+    height:200px;
+    width: 180px;
+    border: 6px lightseagreen;
+    border-style: double ;
+    border-radius: 15px 50px
+ 
 }
 
-#intro {
-    display: block;
-}
 
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
