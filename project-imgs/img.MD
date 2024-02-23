@@ -1,1 +1,1 @@
-![alt text](20230909_173622.jpg)
+![alt text](image.png)
