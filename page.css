@@ -50,3 +50,10 @@ main {
 .connect-link {
 color: rgb(172, 233, 92)
 }
+
+.year {
+    display: flex;
+align-items: center;
+text-decoration: overline solid;
+font-size: 45px;
+}
