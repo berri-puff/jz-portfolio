@@ -48,7 +48,8 @@ main {
 }
 
 .connect-link {
-color: rgb(24, 126, 243)
+color: rgb(24, 126, 243);
+font-weight: 600;
 }
 
 .year {
@@ -56,4 +57,10 @@ color: rgb(24, 126, 243)
 align-items: center;
 text-decoration: overline solid;
 font-size: 45px;
+}
+
+#connect {
+    display: block;
+    position: absolute;
+    right: 40px;
 }
